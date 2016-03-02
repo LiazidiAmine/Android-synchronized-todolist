@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <item
+        android:id="@+id/display"
+        android:title="Display"
+        android:showAsAction="always"
+        tools:ignore="AppCompatResource">
+        <menu android:id="@+id/filtre">
+            <item
+                android:id="@+id/selectByDate"
+                android:title="Select by date"   />
+            <item
+                android:id="@+id/selectWhere"
+                android:title="Select by key word"/>
+        </menu>
+    </item>
+
+    <item
+        android:showAsAction="always"
+        android:id="@+id/help"
+        tools:ignore="AppCompatResource"
+        android:title="Help"/>
+
+</menu>
